@@ -1,0 +1,57 @@
+@media screen and (max-width: 768px) {
+    i.ic_menu {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+    .hero{
+        height: 70vh;
+        /* width: 100%; */
+        margin: auto;
+    }
+    .hero-img img{
+        position: relative;
+/* background-color: blue; */
+top: -120px;
+animation: none;
+right: 20%;
+width: 80%;
+    }
+    .hero .hero-text h1{
+        font-size: 24px;
+        margin-bottom: 0px;
+        position: absolute;
+        top: 500px;
+        margin: auto;
+    }
+        .hero .hero-text p{
+        font-size: 20px;
+        position: absolute;
+        top: 550px;
+    }
+    .hero .hero-text .btn{
+        top: 600px;
+        position: absolute;
+    }
+
+    .about-section{
+        /* width: 100%; */
+        height: 80vh;
+    }
+
+    .about-text{
+        position: relative;
+        /* background-color: aqua; */
+        top: 150px;
+        font-size: 12px;
+    }
+    .about-image{
+        position: absolute;
+        top: 700px;
+        left: 10%;
+    }
+}
+
+    
